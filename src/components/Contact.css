@@ -1,0 +1,36 @@
+.contact-wrap {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1em;
+    padding: 20px 20px;
+    margin: 10px;
+    background: linear-gradient(to left bottom, #517d73, #44786e, #386c62, #387d71, #368f80, #409889, #4aa191, #53aa9a, #67ac9e, #78aea2, #88afa7, #97b1ab);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.3)
+}
+
+.contact-img {
+    align-content:space-between;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h5, p {
+    margin: 7px;
+}
